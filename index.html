@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js//bootstrap.bundle.min.js"></script>
+    
+        <title> mica menu 2 </title>
+    </head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/mic 1.jpg" style="width: 50px;"></a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="autobiografia.html">Autobiografia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ejercicios.html">Ejercicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="juego.html">juego</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.min.js"></script>
+      
+    <section id="photostack-1" class="photostack photostack-start">
+        <div>
+          <figure>
+            <a href="http://goo.gl/Qw3ND4" class="photostack-img"
+              ><img src="img/micaa22.jpeg" alt="img01" width="90%" height="100%"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">mica pho</h2>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="http://goo.gl/fhwlSP" class="photostack-img"
+              ><img src="img/mica fel 44.jpeg" alt="img02" width="80%" height="100%"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">dia feli</h2>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="http://goo.gl/Jmvr4u" class="photostack-img"
+              ><img src="img/micaaa33.jpeg" alt="img03" width="85%" height="100%"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">uyno</h2>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="http://goo.gl/49lN3k" class="photostack-img"
+              ><img src="img/micaa22.jpeg" alt="img04" width="95%" height="100%"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">mica denuebo</h2>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="http://goo.gl/NJ1Dhf" class="photostack-img"
+              ><img src="img/micabb55.jpeg" alt="img05" width="95%" height="100%"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">idkk</h2>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="http://goo.gl/Ms7VDl" class="photostack-img"
+              ><img src="img/micaaa66.jpeg" alt="img06" width="95%" height="100%"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">gato</h2>
+            </figcaption>
+          </figure>
+          <figure data-dummy>
+            <a href="#" class="photostack-img"
+              ><img src="img/7.jpg" alt="img07"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">Lovely Green</h2>
+            </figcaption>
+          </figure>
+          <figure data-dummy>
+            <a href="#" class="photostack-img"
+              ><img src="img/8.jpg" alt="img08"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">Wonderful</h2>
+            </figcaption>
+          </figure>
+          <figure data-dummy>
+            <a href="#" class="photostack-img"
+              ><img src="img/9.jpg" alt="img09"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">Love Addict</h2>
+            </figcaption>
+          </figure>
+          <figure data-dummy>
+            <a href="#" class="photostack-img"
+              ><img src="img/10.jpg" alt="img10"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">Friendship</h2>
+            </figcaption>
+          </figure>
+          <figure data-dummy>
+            <a href="#" class="photostack-img"
+              ><img src="img/11.jpg" alt="img11"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">White Nights</h2>
+            </figcaption>
+          </figure>
+          <figure data-dummy>
+            <a href="#" class="photostack-img"
+              ><img src="img/12.jpg" alt="img12"
+            /></a>
+            <figcaption>
+              <h2 class="photostack-title">Serendipity</h2>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </section>
+  </div><!-- /container -->
+  <script src="js/classie.js"></script>
+  <script src="js/photostack.js"></script>
+  <script>
+    // [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+    
+    new Photostack( document.getElementById( 'photostack-1' ), {
+      callback : function( item ) {
+        //console.log(item)
+      }
+    } );
+    new Photostack( document.getElementById( 'photostack-2' ), {
+      callback : function( item ) {
+        //console.log(item)
+      }
+    } );
+    new Photostack( document.getElementById( 'photostack-3' ), {
+      callback : function( item ) {
+        //console.log(item)
+      }
+    } );
+  </script>
+</body>
+</html>
